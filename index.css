@@ -74,3 +74,10 @@ textarea:not([rows]) {
 }
 
 /* CSS Styles */
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 1rem;
+  font-weight: 500;
+}
