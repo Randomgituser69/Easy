@@ -111,7 +111,8 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 15px;
+  gap: 15px;
+  padding: 2rem;
   background-color: var(---lily-white);
 }
 img {
@@ -121,10 +122,11 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
   border-radius: 5px;
   width: 500px;
   margin: 50px;
-  padding: 20px;
+  padding: 1.3rem;
   background-color: #FFFF;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
     0px 8px 12px 0px rgba(0, 0, 0, 0.08);
@@ -147,7 +149,7 @@ input {
   color: black;
   font-weight: 500;
   text-align: center;
-  border: 1px solid var(---dark-grey);
+  border: 0.8px solid rgba(0, 0, 0, 0.08);
   border-radius: 5px;
   background-color: var(---lily-white);
   width: 460px;
