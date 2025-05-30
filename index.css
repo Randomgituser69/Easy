@@ -116,6 +116,8 @@ body {
   background-color: var(---lily-white);
 }
 img {
+  height: 10%;
+  width: 10%;
   margin-top: 5em;
 }
 form {
@@ -124,9 +126,9 @@ form {
   align-items: center;
   gap: 10px;
   border-radius: 5px;
-  width: 500px;
   margin: 50px;
-  padding: 1.6rem;
+  margin-top: 3em;
+  padding: 1.5rem;
   background-color: #FFFF;
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
     0px 8px 12px 0px rgba(0, 0, 0, 0.08);
@@ -151,18 +153,17 @@ input {
   border: 0.8px solid rgba(0, 0, 0, 0.08);
   border-radius: 5px;
   background-color: var(---lily-white);
-  width: 460px;
-  padding: 18px;
+ /* width: 460px; */
+  padding: 1rem 5rem;
   margin-bottom: 0.8em;
 }
 button {
   font-weight: 600;
   background-color: var(---blue);
   color: white;
-  width: 460px;
   border: none;
   border-radius: 5px;
-  padding: 18px;
+  padding: 1rem 11rem;
   margin-bottom: 0.7em;
 }
 input, button {
